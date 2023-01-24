@@ -89,7 +89,7 @@ int flags, int width, int precision, int size);
 
 /*Function to print a string in rot 13*/
 int print_rot13string(va_list types, char buffer[],
-int flags, int width, int precision, int size);
+iint flags, int width, int precision, int size);
 
 /* width handler */
 int handle_write_char(char c, char buffer[],
